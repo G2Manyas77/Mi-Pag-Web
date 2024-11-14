@@ -1,0 +1,66 @@
+/* Tipografías y colores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #ffe5e9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #d12a5c;
+}
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+.content .photo {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.message {
+    font-size: 1.1em;
+    margin: 15px 0;
+    color: #333;
+}
+footer p {
+    font-size: 1.2em;
+    color: #666;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #d12a5c;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+.social-icons a:hover {
+    color: #f56b8a;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
